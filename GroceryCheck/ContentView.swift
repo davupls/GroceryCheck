@@ -23,11 +23,18 @@ struct ContentView: View {
             VStack {
                 List {
                     ForEach(grocery, id: \.id) { item in
-                        Text(item.itemName)
+                        HStack {
+                            
+                            Text(item.itemName)
+                        }
                     }
                     .onDelete( perform: deleteEntry)
+                    
                 }
                 .listStyle(.plain)
+                .toolbar {
+                    EditButton()
+                }
                 
                 VStack {
                     TextField("Enter Grocery Item", text: $dataEntered)
