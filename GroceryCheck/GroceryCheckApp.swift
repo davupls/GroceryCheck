@@ -13,5 +13,6 @@ struct GroceryCheckApp: App {
         WindowGroup {
             ContentView()
         }
+        .modelContainer(for: GroceryModel.self)
     }
 }

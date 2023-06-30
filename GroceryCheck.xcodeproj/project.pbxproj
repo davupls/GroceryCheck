@@ -11,6 +11,8 @@
 		933AD9432A4EADE700B7DD81 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933AD9422A4EADE700B7DD81 /* ContentView.swift */; };
 		933AD9452A4EADE800B7DD81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933AD9442A4EADE800B7DD81 /* Assets.xcassets */; };
 		933AD9482A4EADE800B7DD81 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933AD9472A4EADE800B7DD81 /* Preview Assets.xcassets */; };
+		933AD94F2A4EAE0F00B7DD81 /* GroceryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933AD94E2A4EAE0F00B7DD81 /* GroceryModel.swift */; };
+		933AD9512A4EAE6900B7DD81 /* CheckboxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933AD9502A4EAE6900B7DD81 /* CheckboxView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		933AD9422A4EADE700B7DD81 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		933AD9442A4EADE800B7DD81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933AD9472A4EADE800B7DD81 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		933AD94E2A4EAE0F00B7DD81 /* GroceryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryModel.swift; sourceTree = "<group>"; };
+		933AD9502A4EAE6900B7DD81 /* CheckboxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckboxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 				933AD9422A4EADE700B7DD81 /* ContentView.swift */,
 				933AD9442A4EADE800B7DD81 /* Assets.xcassets */,
 				933AD9462A4EADE800B7DD81 /* Preview Content */,
+				933AD94E2A4EAE0F00B7DD81 /* GroceryModel.swift */,
+				933AD9502A4EAE6900B7DD81 /* CheckboxView.swift */,
 			);
 			path = GroceryCheck;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				933AD9432A4EADE700B7DD81 /* ContentView.swift in Sources */,
+				933AD94F2A4EAE0F00B7DD81 /* GroceryModel.swift in Sources */,
 				933AD9412A4EADE700B7DD81 /* GroceryCheckApp.swift in Sources */,
+				933AD9512A4EAE6900B7DD81 /* CheckboxView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
